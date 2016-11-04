@@ -14,7 +14,10 @@
 #7::SendInput {|}
 ; ==== Braces ====
 #5::SendInput {[}
+<^>!5::SendInput {[}
+
 #6::SendInput {]}
+<^>!6::SendInput {]}
 #8::SendInput {{}
 #9::SendInput {}}
 ; ==== Special Keys ====
@@ -25,6 +28,8 @@
 
 ; Alt + L to @  ; Attention - must disable Windows Logout Hokey for this to work see http://www.howtogeek.com/howto/windows-vista/disableenable-lock-workstation-functionality-windows-l/ oh how to disable the WIN + L hotkey
 #l::SendInput {@}
+<^>!l::SendInput{@}
+
 ; TODO make replacement for "LockWorkstation" !Esc::DllCall("[user32.dll\]LockWorkStation")  ; Download NirCmd at http://www.nirsoft.net/utils/nircmd.html and copy the files to System32
 ; ===== Application specific Hotkeys=====
 ; Google Chrome
