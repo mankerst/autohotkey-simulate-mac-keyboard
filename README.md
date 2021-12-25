@@ -1,7 +1,7 @@
 # Simulate the Mac Keyboard on a Windows Keyboard
 
 
-AutoHotkey Mappings to simulate OSX keyboard behaviour on Windows
+[AutoHotkey](https://www.autohotkey.com) Mappings to simulate OSX keyboard behaviour on Windows
 
 This basically means remapping many of the hotkey combinations that use the Windows-Key (Meta-Modifier) and the ALT modifier key.
 
